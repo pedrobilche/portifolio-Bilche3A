@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #9C27B0;     /* Roxo vibrante */
+    --cor-secundaria: #1976D2;    /* Azul forte */
+    --cor-destaque: #FF007F;      /* Rosa neon vibrante */
+    --cor-fundo: #FF1493;         /* Rosa neon tipo "hot pink" */
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--cor-fundo);
+    color: white; /* Melhor para contraste com fundo neon */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    color: white;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--cor-principal);
+}
+
+footer {
+    background-color: var(--cor-principal);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+

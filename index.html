@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Meu portfólio</title>
+</head>
+
+<body>
+  <header class="container text-center my-4">
+    <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150">
+    <p class="lead">Eu sou Pedro Bilche</p>
+    <h1>Eu sou estudante</h1>
+    <p>Eu estudo na escola durante o dia e à noite faço curso pré-vestibular na UNESP</p>
+    <p>Minhas habilidades</p>
+    <div>
+      <span class="badge bg-secondary">HTML</span>
+      <span class="badge bg-secondary">desenhar</span>
+      <span class="badge bg-secondary">artesanato</span>
+    </div>
+  </header>
+
+  <main class="container mt-5">
+    <h2>Meus projetos</h2>
+    <div class="row">
+
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-1.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Minha Biblioteca: séries e filmes</h5>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-2.jpg" class="card-img-top" alt="Imagem do projeto de IA">
+          <div class="card-body">
+            <h5 class="card-title">Site para treinar</h5>
+            <p class="card-text">Um jogo interativo para explorar decisões e caminhos diferentes.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+       <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-3.jpg" class="card-img-top" alt="Imagem do projeto tipo Netflix com casos criminais">
+          <div class="card-body">
+            <h5 class="card-title">Alurasong</h5>
+            <p class="card-text">Um site inspirado na Netflix com músicas.</p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Minha Biblioteca: séries e filmes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Criei este site para compartilhar os filmes e séries que mais gosto! Aqui você vai encontrar indicações, comentários e curiosidades sobre minhas produções favoritas — desde clássicos até as novidades que me conquistaram. É um espaço pessoal, feito com carinho, para dividir com vocês um pedacinho do meu mundo cinéfilo e seriador. Se você também ama se perder em boas histórias, seja bem-vindo(a)!</p>
+        </div>
+        <div class="modal-footer">
+          <a href="https://jrxjaga.github.io/filmeseseriesbilche/" target="_blank" class="btn btn-primary">Ver projeto ao vivo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Site para treinar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Esse projeto é um jogo de escolhas feito para praticar lógica e decisões, no estilo "escolha sua aventura".</p>
+        </div>
+        <div class="modal-footer">
+          <a href="https://lds2024.github.io/criando-sua-aventura/" target="_blank" class="btn btn-primary">Ver projeto ao vivo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Modal 3 -->
+  <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">AluraFlix: Casos Criminais</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Esse projeto simula uma plataforma de streaming como a Netflix, com uma seleção de vídeos sobre crimes reais, mistérios e investigações. Ideal para quem gosta de documentários criminais!</p>
+        </div>
+        <div class="modal-footer">
+          <a href="https://pedrobilche.github.io/songflix/" target="_blank" class="btn btn-primary">Ver projeto ao vivo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="text-center my-5">
+    <p>© Copyright 2024. Produzido por Pedro Bilche</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
